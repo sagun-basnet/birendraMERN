@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      main {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+      }
+      .upperDiv {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        padding: 1rem 2rem;
+        outline: none;
+        border: none;
+        border-radius: 0.6rem;
+        background-color: blue;
+      }
+      .lowerDiv {
+        height: 100%;
+        width: 100%;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+      }
+      .model {
+        background: #969595;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        gap: 2rem;
+        border-radius: 1.2rem;
+      }
+      .btns {
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <main>
+      <button id="create">Create</button>
+      <div class="upperDiv">
+        <button id="open">Open</button>
+      </div>
+      <div class="lowerDiv" id="closeDiv">
+        <div class="model">
+          <h1>Are You Sure?</h1>
+          <div class="btns">
+            <button id="close" style="background-color: red">Cancel</button>
+            <button>Okay</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="divs"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus earum quia
+      officiis similique culpa, aliquam perspiciatis fugiat ipsa assumenda hic?
+    </p> -->
+
+    <input name="vari" type="text" placeholder="Enter Text" id="text" />
+    <div style="border: 2px solid black" id="output"></div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
