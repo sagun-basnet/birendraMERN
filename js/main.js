@@ -82,13 +82,13 @@
 //   console.log(e);
 // }
 let res;
-const fetchData = async () => {
-  res = await fetch("https://jsonplaceholder.typicode.com/posts", {
-    method: "GET",
-  });
-};
-console.log(res, ":Response");
+// const fetchData = async () => {
+//   res = await fetch("https://jsonplaceholder.typicode.com/posts", {
+//     method: "GET",
+//   });
+// };
+// console.log(res, ":Response");
 
-fetchData();
+// fetchData();
 
 
