@@ -56,30 +56,15 @@
 // // const handleChange = (e) => {
 // //   console.log(e);
 // // };
+// let count = 0;
+// const timer1c = setInterval(() => {
+//   count++;
+//   console.log(count, "interval");
+//   if (count === 3) {
+//     clearInterval(timer1c);
+//   }
+// }, 3000);
 
-let count = 0,
-  min = 0,
-  hrs = 0;
-
-const start = () => {
-  const timer1c = setInterval(() => {
-    count++;
-    console.log(count + " :Second " + min + " :Minutes " + hrs + " :Hours");
-    if (count === 15) {
-      min = min + 1;
-      count = 0;
-      // clearInterval(timer1c);
-      if (min === 60) {
-        hrs = hrs + 1;
-        min = 0;
-      }
-    }
-  }, 1000);
-};
-
-const stop = () => {};
-
-const reset = () => {};
 // const timer2 = setTimeout(() => {
 //   console.log(count, "timeout");
 // }, 3000);
@@ -96,7 +81,7 @@ const reset = () => {};
 // } catch (e) {
 //   console.log(e);
 // }
-// let res;
+let res;
 // const fetchData = async () => {
 //   res = await fetch("https://jsonplaceholder.typicode.com/posts", {
 //     method: "GET",
@@ -105,3 +90,5 @@ const reset = () => {};
 // console.log(res, ":Response");
 
 // fetchData();
+
+
